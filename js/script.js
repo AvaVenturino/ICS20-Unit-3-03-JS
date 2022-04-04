@@ -6,7 +6,7 @@
 
 'use strict'
 /**
- * This function calculates the area of a triangle.
+ * This function calculates the volume of a sphere.
  */
 function calculate () {
   // input
@@ -15,5 +15,5 @@ function calculate () {
   const volume = 4/3 * Math.PI * Math.pow(radius, 3)
   // output
   document.getElementById("volume").innerHTML =
-    "The area is: " + volume.toFixed(2) + ' mm²' 
+    "The Volume is: " + volume.toFixed(2) + ' cm²' 
 }
