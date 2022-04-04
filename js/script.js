@@ -15,5 +15,5 @@ function calculate () {
   const volume = 4/3 * Math.PI * Math.pow(radius, 3)
   // output
   document.getElementById("volume").innerHTML =
-    "The Volume is: " + volume.toFixed(2) + ' cm²' 
+    "The volume is: " + volume.toFixed(2) + ' cm²' 
 }
